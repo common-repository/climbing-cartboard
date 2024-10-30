@@ -1,0 +1,24 @@
+import { render } from "./logo.svg?vue&type=template&id=4eb80dec"
+const script = {}
+
+import exportComponent from "/home/rlabrovi/Local Sites/vertikal/app/public/wp-content/plugins/climbing-card/node_modules/vue-loader/dist/exportHelper.js"
+const __exports__ = /*#__PURE__*/exportComponent(script, [['render',render],['__file',"resources/assets/images/logo.svg"]])
+/* hot reload */
+if (module.hot) {
+  __exports__.__hmrId = "4eb80dec"
+  const api = __VUE_HMR_RUNTIME__
+  module.hot.accept()
+  if (!api.createRecord('4eb80dec', __exports__)) {
+    console.log('reload')
+    api.reload('4eb80dec', __exports__)
+  }
+  
+  module.hot.accept("./logo.svg?vue&type=template&id=4eb80dec", () => {
+    console.log('re-render')
+    api.rerender('4eb80dec', render)
+  })
+
+}
+
+
+export default __exports__
